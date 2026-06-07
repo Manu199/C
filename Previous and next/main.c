@@ -1,6 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, World!\n");
+    int number, i = 0;
+    printf("Insert a integer: ");
+    scanf("%i", &number);
+
+    printf("The previous number is: %i\n", number - 1);
+
+    printf("The next number is: %i\n", number + 1);
+    // for (i = 0, i <= 3; i++) {
+    //
+    // }
     return 0;
 }
